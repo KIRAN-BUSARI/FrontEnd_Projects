@@ -78,6 +78,10 @@ nav {
     color: #ff0000;
 }
 
+.nav-item.active {
+    color: var(--accent-color);
+}
+
 .search-bar {
     height: 32px;
     gap: 8px;
@@ -132,7 +136,7 @@ main {
 .card:hover {
     box-shadow: 1px 1px 8px #d4ecff;
     background-color: #f9fdff;
-    transform: translateY(-2px);
+    transform: translateY(-4px);
 }
 
 .card-header img {
@@ -149,6 +153,4 @@ main {
     margin-block: 12px;
 }
 
-.news-desc {
-    
-}
+.news-desc {}
